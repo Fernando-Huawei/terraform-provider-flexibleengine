@@ -301,7 +301,11 @@ func Provider() *schema.Provider {
 			"flexibleengine_dms_rocketmq_instances": dms.DataSourceDmsRocketMQInstances(),
 
 			"flexibleengine_dws_flavors":      dws.DataSourceDwsFlavors(),
+
 			"flexibleengine_elb_certificate":  elb.DataSourceELBCertificateV3(),
+
+			"flexibleengine_evs_volumes":      evs.DataSourceEvsVolumesV2(),
+
 			"flexibleengine_fgs_dependencies": fgs.DataSourceFunctionGraphDependencies(),
 
 			"flexibleengine_gaussdb_cassandra_instances": gaussdb.DataSourceGeminiDBInstances(),
