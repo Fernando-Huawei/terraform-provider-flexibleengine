@@ -294,6 +294,7 @@ func Provider() *schema.Provider {
 			"flexibleengine_ddm_accounts":       ddm.DataSourceDdmAccounts(),
 
 			"flexibleengine_dms_kafka_instances":    dms.DataSourceDmsKafkaInstances(),
+			"flexibleengine_dms_maintainwindow":     dms.DataSourceDmsMaintainWindow(),
 			"flexibleengine_dms_rocketmq_broker":    dms.DataSourceDmsRocketMQBroker(),
 			"flexibleengine_dms_rocketmq_instances": dms.DataSourceDmsRocketMQInstances(),
 
@@ -485,6 +486,7 @@ func Provider() *schema.Provider {
 			"flexibleengine_apig_vpc_channel": deprecated.ResourceApigVpcChannelV2(),
 
 			"flexibleengine_dms_kafka_user":              dms.ResourceDmsKafkaUser(),
+			"flexibleengine_dms_rabbitmq_instance":       dms.ResourceDmsRabbitmqInstance(),
 			"flexibleengine_dms_rocketmq_instance":       dms.ResourceDmsRocketMQInstance(),
 			"flexibleengine_dms_rocketmq_consumer_group": dms.ResourceDmsRocketMQConsumerGroup(),
 			"flexibleengine_dms_rocketmq_topic":          dms.ResourceDmsRocketMQTopic(),
